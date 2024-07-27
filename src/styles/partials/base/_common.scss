@@ -47,8 +47,8 @@
 
 .btn {
     display: inline-block;
-    background-color: rgba($color: #3a1a1a, $alpha: 0.8);
-    color: #fff;
+    background-color: rgb(253 136 61);
+    color: #ff0404;
     padding: 0.8rem 1.5rem;
     border-radius: 3px;
     @include transition(background-color, 0.2s, ease-out);
@@ -122,8 +122,8 @@
 
         &.active,
         &:hover {
-            background-color: var(--main-color);
-            color: #fff;
+            background-color: #ff6400;
+            color: #01040f;
         }
 
         @include devices(sm) {
